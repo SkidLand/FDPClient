@@ -28,4 +28,4 @@ class VulcanGlideFly : FlyMode("Vulcan-Glide") {
                 mc.thePlayer.motionY = -0.07
             }
             ticks++
-    }
+     }
