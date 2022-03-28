@@ -48,5 +48,7 @@ class ClipFly : FlyMode("Clip") {
         if (packet is C03PacketPlayer) {
             if(spoofValue.get()) {
                 packet.onGround = true
+            }
+        }
     }
 }
