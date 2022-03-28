@@ -6,7 +6,7 @@ import net.ccbluex.liquidbounce.utils.MovementUtils
 class VulcanHop2 : SpeedMode("VulcanHop2") {
     override fun onPreMotion() {
         if (MovementUtils.isMoving()) {
-           mc.timer.timerSpeed = if (mc.thePlayer.motionY > 0) { 1.35 } else { 0.8 }
+           mc.timer.timerSpeed = if (mc.thePlayer.motionY > 0) { 1.35F } else { 0.8F }
             if (mc.thePlayer.onGround) {
                 mc.thePlayer.jump()
                 MovementUtils.strafe()
