@@ -1,10 +1,14 @@
 package net.ccbluex.liquidbounce.features.module.modules.movement.flys.other
 
+import net.ccbluex.liquidbounce.event.PacketEvent
 import net.ccbluex.liquidbounce.event.UpdateEvent
 import net.ccbluex.liquidbounce.features.module.modules.movement.flys.FlyMode
 import net.ccbluex.liquidbounce.utils.timer.MSTimer
+import net.ccbluex.liquidbounce.value.BoolValue
 import net.ccbluex.liquidbounce.value.FloatValue
 import net.ccbluex.liquidbounce.value.IntegerValue
+import net.minecraft.network.play.client.C03PacketPlayer
+
 import kotlin.math.cos
 import kotlin.math.sin
 
